@@ -3,8 +3,6 @@ This was made with PyQt it uses yfincese libery to pull stock data from yahoo. T
 
 ![Stock App](/Stockapp.png)
 
-## This is only a Demo of my GUI work. 
-
 # Some of the code. 
 ~~~
    def showdata(self):
