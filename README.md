@@ -33,4 +33,13 @@ This was made with PyQt it uses yfincese libery to pull stock data from yahoo. T
        df = pa.DataFrame(data)
        df.to_csv('output.csv', index=False)
 
+   #when checked will enable this object on windows
+    def checked(self, b):
+         if b.isChecked()== True:
+             self.date_end.setEnabled(True)
+             self.date_start.setEnabled(True)
+         else:
+             self.date_end.setEnabled(False)
+             self.date_start.setEnabled(False)
+
 ~~~
